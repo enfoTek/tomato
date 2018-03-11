@@ -140,6 +140,6 @@ extern int nvram2file(char *varname, char *filename);
 #define NVRAM_MAGIC		0x48534C46	/* 'FLSH' */
 #define NVRAM_VERSION		1
 #define NVRAM_HEADER_SIZE	20
-#define NVRAM_SPACE		0x8000
+#define NVRAM_SPACE		0xF000
 
 #endif /* _bcmnvram_h_ */
